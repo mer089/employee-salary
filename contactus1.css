@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(rgb(157, 157, 157), rgb(45, 77, 105));
+    color:#0d0c0c;
+    
+}
+
+header{
+    position: fixed;
+    background: rgb(67, 65, 65);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+header .logo{
+    color: rgb(12, 11, 11);
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+header .logo span{
+    font-size: 40px;
+    font-weight: 800px;
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+    
+}
+.navbar{
+    display: flex;
+
+}
+.navbar .active{
+    color: rgb(255, 255, 255);
+}
+.navbar a{
+    justify-content: space-between;
+    padding: 10px 18px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+    transition: all ease 0.1s;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+.navbar a:hover{
+    color: rgb(122, 122, 122);
+    
+}
+.sign-in a{
+    color: #292424;
+    font-size: 22px;
+    font-weight: 500;
+    transition: all ease 0.1s;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+
+}
+.sign-in a:hover{
+    background-color: rgb(146, 113, 222);
+    color: aliceblue;
+}
+
+
+.follow img{
+
+    padding: 2px;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 12px;
+    vertical-align: middle;
+    transition: all ease .50s;
+    cursor: pointer;
+
+}
+.follow img:hover{
+    transform: translateY(-5px);
+}
+
+.contact{
+    padding: 250px;
+}
+h2{
+    font-size: 45px;
+    font-weight: 800;
+    padding: 20px;
+}
+.box{
+    padding: 20px;
+
+}
+.box .icon img{ 
+    width: 40px;
+    padding: 3px;
+}
+.box .text h3{
+    font-size: 25px;
+    font-weight: 600px;
+    padding-bottom: 10px;
+    color: rgb(17, 6, 43);
+}
+.box .text p{
+    font-size: 20px;
+    font-weight: 600px;
+}
